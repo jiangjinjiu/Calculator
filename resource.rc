@@ -1,0 +1,151 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_CALCULATOR DIALOG DISCARDABLE  0, 0, 131, 107
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "¼ÆËãÆ÷"
+FONT 10, "System"
+BEGIN
+    EDITTEXT        IDC_EDIT_MAIN,5,7,120,12,ES_RIGHT | ES_AUTOHSCROLL
+    CONTROL         "9",IDC_BUTTON_9,"Button",BS_OWNERDRAW | WS_TABSTOP,67,
+                    40,18,13
+    CONTROL         "8",IDC_BUTTON_8,"Button",BS_OWNERDRAW | WS_TABSTOP,47,
+                    40,18,13
+    CONTROL         "7",IDC_BUTTON_7,"Button",BS_OWNERDRAW | WS_TABSTOP,27,
+                    40,18,13
+    CONTROL         "/",IDC_BUTTON_DIV,"Button",BS_OWNERDRAW | WS_TABSTOP,87,
+                    40,18,13
+    CONTROL         "6",IDC_BUTTON_6,"Button",BS_OWNERDRAW | WS_TABSTOP,67,
+                    57,18,13
+    CONTROL         "5",IDC_BUTTON_5,"Button",BS_OWNERDRAW | WS_TABSTOP,47,
+                    57,18,13
+    CONTROL         "4",IDC_BUTTON_4,"Button",BS_OWNERDRAW | WS_TABSTOP,27,
+                    57,18,13
+    CONTROL         "*",IDC_BUTTON_RIDE,"Button",BS_OWNERDRAW | WS_TABSTOP,
+                    87,57,18,13
+    CONTROL         "1",IDC_BUTTON_1,"Button",BS_OWNERDRAW | WS_TABSTOP,27,
+                    75,18,13
+    CONTROL         "2",IDC_BUTTON_2,"Button",BS_OWNERDRAW | WS_TABSTOP,47,
+                    74,18,13
+    CONTROL         "3",IDC_BUTTON_3,"Button",BS_OWNERDRAW | WS_TABSTOP,67,
+                    74,18,13
+    CONTROL         "-",IDC_BUTTON_SUB,"Button",BS_OWNERDRAW | WS_TABSTOP,87,
+                    73,18,13
+    CONTROL         "0",IDC_BUTTON_0,"Button",BS_OWNERDRAW | WS_TABSTOP,27,
+                    90,18,13
+    CONTROL         ".",IDC_BUTTON_POINT,"Button",BS_OWNERDRAW | WS_TABSTOP,
+                    67,90,18,13
+    CONTROL         "+",IDC_BUTTON_ADD,"Button",BS_OWNERDRAW | WS_TABSTOP,87,
+                    90,18,13
+    CONTROL         "=",IDC_BUTTON_EQUAL,"Button",BS_OWNERDRAW | WS_TABSTOP,
+                    107,90,18,13
+    CONTROL         "C",IDC_BUTTON_DELETE,"Button",BS_OWNERDRAW | WS_TABSTOP,
+                    96,24,29,13
+    CONTROL         "+/-",IDC_BUTTON_MINUS,"Button",BS_OWNERDRAW | 
+                    WS_TABSTOP,47,90,18,13
+    EDITTEXT        IDC_EDIT_M,6,24,15,12,ES_AUTOHSCROLL
+    CONTROL         "MC",IDC_BUTTON_MC,"Button",BS_OWNERDRAW | WS_TABSTOP,5,
+                    41,18,13
+    CONTROL         "MR",IDC_BUTTON_MR,"Button",BS_OWNERDRAW | WS_TABSTOP,5,
+                    57,18,13
+    CONTROL         "MS",IDC_BUTTON_MS,"Button",BS_OWNERDRAW | WS_TABSTOP,5,
+                    75,18,13
+    CONTROL         "M+",IDC_BUTTON_M,"Button",BS_OWNERDRAW | WS_TABSTOP,5,
+                    90,18,13
+    CONTROL         "sqrt",IDC_BUTTON_SQRT,"Button",BS_OWNERDRAW | 
+                    WS_TABSTOP,107,40,18,13
+    CONTROL         "%",IDC_BUTTON_PERCENT,"Button",BS_OWNERDRAW | 
+                    WS_TABSTOP,107,57,18,13
+    CONTROL         "1/x",IDC_BUTTON_1x,"Button",BS_OWNERDRAW | WS_TABSTOP,
+                    107,73,18,13
+    CONTROL         "CE",IDC_BUTTON_CE,"Button",BS_OWNERDRAW | BS_CENTER | 
+                    BS_VCENTER | WS_TABSTOP,66,24,29,13
+    CONTROL         "Backspace",IDC_BUTTON_BACKSPACE,"Button",BS_OWNERDRAW | 
+                    WS_TABSTOP,27,24,37,13
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_CALCULATOR, DIALOG
+    BEGIN
+        LEFTMARGIN, 5
+        RIGHTMARGIN, 126
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 100
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
